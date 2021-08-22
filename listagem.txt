@@ -1,0 +1,389 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 226240  7612 ?        Ss   ago15   3:29 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    ago15   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   ago15   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   ago15   0:00 [rcu_par_gp]
+root         6  0.0  0.0      0     0 ?        I<   ago15   0:00 [kworker/0:0H-kb]
+root         9  0.0  0.0      0     0 ?        I<   ago15   0:00 [mm_percpu_wq]
+root        10  0.0  0.0      0     0 ?        S    ago15   0:04 [ksoftirqd/0]
+root        11  0.0  0.0      0     0 ?        I    ago15   5:42 [rcu_sched]
+root        12  0.0  0.0      0     0 ?        S    ago15   0:02 [migration/0]
+root        13  0.0  0.0      0     0 ?        S    ago15   0:00 [idle_inject/0]
+root        14  0.0  0.0      0     0 ?        S    ago15   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    ago15   0:00 [cpuhp/1]
+root        16  0.0  0.0      0     0 ?        S    ago15   0:00 [idle_inject/1]
+root        17  0.0  0.0      0     0 ?        S    ago15   0:02 [migration/1]
+root        18  0.0  0.0      0     0 ?        S    ago15   0:02 [ksoftirqd/1]
+root        20  0.0  0.0      0     0 ?        I<   ago15   0:07 [kworker/1:0H-ev]
+root        21  0.0  0.0      0     0 ?        S    ago15   0:00 [cpuhp/2]
+root        22  0.0  0.0      0     0 ?        S    ago15   0:00 [idle_inject/2]
+root        23  0.0  0.0      0     0 ?        S    ago15   0:02 [migration/2]
+root        24  0.0  0.0      0     0 ?        S    ago15   0:02 [ksoftirqd/2]
+root        26  0.0  0.0      0     0 ?        I<   ago15   0:00 [kworker/2:0H-kb]
+root        27  0.0  0.0      0     0 ?        S    ago15   0:00 [cpuhp/3]
+root        28  0.0  0.0      0     0 ?        S    ago15   0:00 [idle_inject/3]
+root        29  0.0  0.0      0     0 ?        S    ago15   0:02 [migration/3]
+root        30  0.0  0.0      0     0 ?        S    ago15   0:01 [ksoftirqd/3]
+root        32  0.0  0.0      0     0 ?        I<   ago15   0:00 [kworker/3:0H-kb]
+root        33  0.0  0.0      0     0 ?        S    ago15   0:00 [cpuhp/4]
+root        34  0.0  0.0      0     0 ?        S    ago15   0:00 [idle_inject/4]
+root        35  0.0  0.0      0     0 ?        S    ago15   0:02 [migration/4]
+root        36  0.0  0.0      0     0 ?        S    ago15   0:00 [ksoftirqd/4]
+root        38  0.0  0.0      0     0 ?        I<   ago15   0:00 [kworker/4:0H-kb]
+root        39  0.0  0.0      0     0 ?        S    ago15   0:00 [cpuhp/5]
+root        40  0.0  0.0      0     0 ?        S    ago15   0:00 [idle_inject/5]
+root        41  0.0  0.0      0     0 ?        S    ago15   0:02 [migration/5]
+root        42  0.0  0.0      0     0 ?        S    ago15   0:03 [ksoftirqd/5]
+root        45  0.0  0.0      0     0 ?        S    ago15   0:00 [cpuhp/6]
+root        46  0.0  0.0      0     0 ?        S    ago15   0:00 [idle_inject/6]
+root        47  0.0  0.0      0     0 ?        S    ago15   0:02 [migration/6]
+root        48  0.0  0.0      0     0 ?        S    ago15   0:02 [ksoftirqd/6]
+root        51  0.0  0.0      0     0 ?        S    ago15   0:00 [cpuhp/7]
+root        52  0.0  0.0      0     0 ?        S    ago15   0:00 [idle_inject/7]
+root        53  0.0  0.0      0     0 ?        S    ago15   0:02 [migration/7]
+root        54  0.0  0.0      0     0 ?        S    ago15   0:01 [ksoftirqd/7]
+root        56  0.0  0.0      0     0 ?        I<   ago15   0:00 [kworker/7:0H-kb]
+root        57  0.0  0.0      0     0 ?        S    ago15   0:00 [kdevtmpfs]
+root        58  0.0  0.0      0     0 ?        I<   ago15   0:00 [netns]
+root        59  0.0  0.0      0     0 ?        S    ago15   0:00 [rcu_tasks_kthre]
+root        60  0.0  0.0      0     0 ?        S    ago15   0:00 [kauditd]
+root        61  0.0  0.0      0     0 ?        S    ago15   0:00 [khungtaskd]
+root        62  0.0  0.0      0     0 ?        S    ago15   0:00 [oom_reaper]
+root        63  0.0  0.0      0     0 ?        I<   ago15   0:00 [writeback]
+root        64  0.0  0.0      0     0 ?        S    ago15   0:00 [kcompactd0]
+root        65  0.0  0.0      0     0 ?        SN   ago15   0:00 [ksmd]
+root        66  0.0  0.0      0     0 ?        SN   ago15   0:02 [khugepaged]
+root       114  0.0  0.0      0     0 ?        I<   ago15   0:00 [kintegrityd]
+root       115  0.0  0.0      0     0 ?        I<   ago15   0:00 [kblockd]
+root       116  0.0  0.0      0     0 ?        I<   ago15   0:00 [blkcg_punt_bio]
+root       119  0.0  0.0      0     0 ?        I<   ago15   0:00 [tpm_dev_wq]
+root       120  0.0  0.0      0     0 ?        I<   ago15   0:00 [ata_sff]
+root       121  0.0  0.0      0     0 ?        I<   ago15   0:00 [md]
+root       122  0.0  0.0      0     0 ?        I<   ago15   0:00 [edac-poller]
+root       123  0.0  0.0      0     0 ?        I<   ago15   0:00 [devfreq_wq]
+root       124  0.0  0.0      0     0 ?        S    ago15   0:00 [watchdogd]
+root       130  0.0  0.0      0     0 ?        S    ago15   0:29 [kswapd0]
+root       131  0.0  0.0      0     0 ?        S    ago15   0:00 [ecryptfs-kthrea]
+root       133  0.0  0.0      0     0 ?        I<   ago15   0:00 [kthrotld]
+root       134  0.0  0.0      0     0 ?        S    ago15   0:00 [irq/122-pciehp]
+root       135  0.0  0.0      0     0 ?        S    ago15   0:00 [irq/123-aerdrv]
+root       136  0.0  0.0      0     0 ?        I<   ago15   0:00 [acpi_thermal_pm]
+root       137  0.0  0.0      0     0 ?        I<   ago15   0:00 [vfio-irqfd-clea]
+root       142  0.0  0.0      0     0 ?        I<   ago15   0:00 [ipv6_addrconf]
+root       151  0.0  0.0      0     0 ?        I<   ago15   0:00 [kstrp]
+root       169  0.0  0.0      0     0 ?        I<   ago15   0:00 [charger_manager]
+root       231  0.0  0.0      0     0 ?        S    ago15   0:00 [scsi_eh_0]
+root       232  0.0  0.0      0     0 ?        I<   ago15   0:00 [scsi_tmf_0]
+root       233  0.0  0.0      0     0 ?        S    ago15   0:00 [scsi_eh_1]
+root       234  0.0  0.0      0     0 ?        I<   ago15   0:00 [scsi_tmf_1]
+root       235  0.0  0.0      0     0 ?        S    ago15   0:00 [scsi_eh_2]
+root       236  0.0  0.0      0     0 ?        I<   ago15   0:00 [scsi_tmf_2]
+root       242  0.0  0.0      0     0 ?        I<   ago15   0:05 [kworker/1:1H-ev]
+root       247  0.0  0.0      0     0 ?        I<   ago15   0:17 [kworker/7:1H-ev]
+root       344  0.0  0.0      0     0 ?        S    ago15   1:42 [jbd2/sda5-8]
+root       345  0.0  0.0      0     0 ?        I<   ago15   0:00 [ext4-rsv-conver]
+root       347  0.0  0.0      0     0 ?        I<   ago15   0:07 [kworker/4:1H-ev]
+root       356  0.0  0.0      0     0 ?        I<   ago15   0:11 [kworker/3:1H-ev]
+root       363  0.1  0.0      0     0 ?        I    18:58   0:03 [kworker/u16:4-i]
+root       377  0.0  0.0      0     0 ?        I<   ago15   0:12 [kworker/2:1H-ev]
+root       394  0.0  0.3 165964 26652 ?        S<s  ago15   0:11 /lib/systemd/systemd-journald
+mariana    403  0.0  1.1 38350756 94168 tty2   Sl+  18:59   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1310 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root       417  0.0  0.0  49296  4240 ?        Ss   ago15   0:28 /lib/systemd/systemd-udevd
+root       422  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop0]
+root       423  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop1]
+root       425  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop2]
+root       426  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop3]
+root       430  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop5]
+root       432  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop6]
+root       434  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop7]
+root       436  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop8]
+root       438  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop9]
+root       440  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop10]
+root       442  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop11]
+mariana    443  0.5  1.5 38366988 124548 tty2  Sl+  18:59   0:09 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1311 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root       445  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop12]
+root       446  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop13]
+root       448  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop14]
+root       450  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop15]
+root       452  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop16]
+root       454  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop17]
+root       456  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop18]
+root       458  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop19]
+root       460  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop20]
+root       462  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop21]
+root       464  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop22]
+root       467  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop23]
+root       469  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop24]
+root       471  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop25]
+root       472  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop26]
+root       474  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop27]
+root       476  0.0  0.0      0     0 ?        S<   ago15   0:00 [loop28]
+root       507  0.0  0.0      0     0 ?        I<   ago15   0:00 [asus_wireless_w]
+root       510  0.0  0.0      0     0 ?        S    ago15   0:00 [irq/109-ELAN120]
+root       535  0.0  0.0      0     0 ?        I<   ago15   0:00 [cfg80211]
+root       543  0.0  0.0      0     0 ?        I<   ago15   0:00 [led_workqueue]
+root       567  0.0  0.0      0     0 ?        I<   ago15   0:00 [cryptd]
+root       591  0.1  0.0      0     0 ?        S    ago15  13:15 [irq/128-iwlwifi]
+mariana    653  0.0  1.0 38341448 86428 tty2   Sl+  19:03   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1314 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root       655  0.0  0.0      0     0 ?        S    ago15   0:00 [spi0]
+root       681  0.0  0.0      0     0 ?        I    19:03   0:00 [kworker/6:0-cgr]
+mariana    682  0.0  1.1 38342472 90396 tty2   Sl+  19:03   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1315 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana    695 10.1  1.8 38408000 150104 tty2  Sl+  19:03   2:39 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1316 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+systemd+   960  0.0  0.0 146132  1808 ?        Ssl  ago15   0:01 /lib/systemd/systemd-timesyncd
+systemd+   961  0.0  0.0  71332  4544 ?        Ss   ago15   0:17 /lib/systemd/systemd-resolved
+mariana    995  0.0  0.9 2493132 78232 pts/0   Sl+  ago17   2:19 /usr/lib/qt5/bin/designer
+root      1046  0.6  0.0      0     0 ?        I    19:09   0:07 [kworker/5:0-eve]
+root      1056  0.0  0.0      0     0 ?        I    19:09   0:00 [kworker/5:3-cgr]
+root      1097  0.0  0.0      0     0 ?        I    19:10   0:00 [kworker/0:1-eve]
+root      1101  0.0  0.0      0     0 ?        I    19:10   0:00 [kworker/1:4-eve]
+root      1102  0.0  0.0      0     0 ?        I    19:10   0:00 [kworker/1:5-eve]
+avahi     1166  0.0  0.0  47252  2764 ?        Ss   ago15   0:13 avahi-daemon: running [mariana-X510UAR.local]
+root      1168  0.0  0.0  36480  4292 ?        Ss   ago15   0:00 /usr/lib/bluetooth/bluetoothd
+message+  1173  0.0  0.0  51904  5064 ?        Ss   ago15   1:31 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+avahi     1227  0.0  0.0  47072   132 ?        S    ago15   0:00 avahi-daemon: chroot helper
+root      1239  0.0  0.0  45724  6028 ?        Ss   ago15   0:04 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root      1241  0.0  0.1 563044 11780 ?        Ssl  ago15   3:16 /usr/sbin/NetworkManager --no-daemon
+root      1249  0.0  0.0 110484  3308 ?        Ssl  ago15   0:46 /usr/sbin/irqbalance --foreground
+root      1250  0.0  0.0 179872  5796 ?        Ssl  ago15   0:56 /usr/sbin/thermald --no-daemon --dbus-enable
+root      1259  0.0  0.0   4548   748 ?        Ss   ago15   0:05 /usr/sbin/acpid
+root      1266  0.0  0.0 288136  5620 ?        Ssl  ago15   0:12 /usr/lib/accountsservice/accounts-daemon
+syslog    1271  0.0  0.0 263032  3288 ?        Ssl  ago15   0:02 /usr/sbin/rsyslogd -n
+root      1296  0.0  0.2 2054688 17548 ?       Ssl  ago15   1:58 /usr/lib/snapd/snapd
+root      1306  0.0  0.0 427308  6132 ?        Ssl  ago15   0:00 /usr/sbin/ModemManager
+root      1311  0.0  0.0  70772  4348 ?        Ss   ago15   0:10 /lib/systemd/systemd-logind
+root      1329  0.0  0.0  31324  2428 ?        Ss   ago15   0:01 /usr/sbin/cron -f
+root      1336  0.0  0.0 504020  7984 ?        Ssl  ago15   0:41 /usr/lib/udisks2/udisksd
+root      1425  0.0  0.0 170540  5760 ?        Ssl  ago15   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1655  0.0  0.1 296884  8716 ?        Ssl  ago15   0:03 /usr/lib/policykit-1/polkitd --no-debug
+postgres  1829  0.0  0.0 320280  5436 ?        S    ago15   0:01 /usr/lib/postgresql/10/bin/postgres -D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf
+root      1834  0.0  0.0 187244  6248 ?        Ssl  ago15   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1855  0.0  0.0 1499212 5016 ?        Ssl  ago15   1:55 /usr/bin/containerd
+root      1884  0.0  0.1 873980 12264 ?        Ssl  ago15   0:48 /usr/bin/anydesk --service
+root      1954  0.0  0.0 301336  5360 ?        Ssl  ago15   0:00 /usr/sbin/gdm3
+root      1997  0.0  0.0 254828  5084 ?        Sl   ago15   0:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm       2035  0.0  0.0  77176  5140 ?        Ss   ago15   0:00 /lib/systemd/systemd --user
+gdm       2036  0.0  0.0 114416   272 ?        S    ago15   0:00 (sd-pam)
+root      2069  0.0  0.2 565884 22660 ?        Ssl  19:11   0:00 /usr/lib/fwupd/fwupd
+root      2109  0.0  0.1 446380 13484 ?        Ss   ago15   0:27 /usr/sbin/apache2 -k start
+gdm       2132  0.0  0.0 190948  4196 tty1     Ssl+ ago15   0:00 /usr/lib/gdm3/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm       2134  0.0  0.0  50264  3296 ?        Ss   ago15   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gdm       2136  0.0  0.0 552464  6824 tty1     Sl+  ago15   0:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+postgres  2141  0.0  0.0 320388  1504 ?        Ss   ago15   0:00 postgres: 10/main: checkpointer process   
+postgres  2142  0.0  0.0 320280  1712 ?        Ss   ago15   0:09 postgres: 10/main: writer process   
+postgres  2143  0.0  0.0 320280  1732 ?        Ss   ago15   0:09 postgres: 10/main: wal writer process   
+postgres  2144  0.0  0.0 320700  1208 ?        Ss   ago15   0:03 postgres: 10/main: autovacuum launcher process   
+postgres  2146  0.0  0.0 175196   624 ?        Ss   ago15   0:02 postgres: 10/main: stats collector process   
+postgres  2147  0.0  0.0 320696   296 ?        Ss   ago15   0:00 postgres: 10/main: bgworker: logical replication launcher   
+root      2200  0.1  0.0      0     0 ?        I<   19:12   0:01 [kworker/u17:1-u]
+root      2208  0.0  0.0      0     0 ?        I    19:12   0:00 [kworker/3:2-eve]
+root      2219  0.0  0.0      0     0 ?        I    19:12   0:00 [kworker/3:3-cgr]
+whoopsie  2292  0.0  0.1 464324  8268 ?        Ssl  ago15   0:02 /usr/bin/whoopsie -f
+root      2294  0.0  0.1 1419844 10976 ?       Ssl  ago15   2:57 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+kernoops  2299  0.0  0.0  56940  1972 ?        Ss   ago15   0:15 /usr/sbin/kerneloops --test
+kernoops  2314  0.0  0.0  56940  2196 ?        Ss   ago15   0:15 /usr/sbin/kerneloops
+root      2332  0.2  0.0      0     0 ?        I    19:17   0:02 [kworker/u16:2-i]
+gdm       2388  0.0  1.1 4020964 95720 tty1    Sl+  ago15   4:34 /usr/bin/gnome-shell
+root      2466  0.1  0.0      0     0 ?        I<   19:23   0:00 [kworker/u17:2-r]
+mariana   2543  0.0  0.6 38307180 53864 tty2   Sl+  19:25   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1318 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root      2575  0.0  0.0      0     0 ?        I    19:26   0:00 [kworker/4:1-mm_]
+root      2581  0.0  0.0 315848  5900 ?        Ssl  ago15   0:14 /usr/lib/upower/upowerd
+root      2612  0.0  0.0      0     0 ?        I    19:27   0:00 [kworker/5:1]
+gdm       2644  0.0  0.0 923228  5560 tty1     Sl+  ago15   0:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+root      2683  0.0  0.0      0     0 ?        I    19:29   0:00 [kworker/u16:1-e]
+mariana   2685  0.0  0.4 287052 38604 pts/2    Sl+  19:29   0:00 python3 geren-processos.py
+mariana   2689  0.0  0.0   4624   776 pts/2    S+   19:29   0:00 sh -c ps -aux > listagem.txt
+mariana   2690  0.0  0.0  39756  3780 pts/2    R+   19:29   0:00 ps -aux
+root      2819  0.0  0.0  15312  1832 ?        Ss   ago17   0:00 /sbin/mount.ntfs /dev/sda3 /media/mariana/OS -o rw,nodev,nosuid,uid=1000,gid=1000,uhelper=udisks2
+gdm       3425  0.0  0.0 349268  4448 ?        Ssl  ago15   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+gdm       3430  0.0  0.0  49924  2764 ?        S    ago15   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm       3432  0.0  0.0 220764  5048 ?        Sl   ago15   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+gdm       3436  0.0  0.0 1579988 6496 ?        Ssl  ago15   0:00 /usr/bin/pulseaudio --daemonize=no
+rtkit     3437  0.0  0.0 183504  2572 ?        SNsl ago15   0:09 /usr/lib/rtkit/rtkit-daemon
+root      3460  0.0  0.0   4504   676 ?        S    ago15   0:00 bpfilter_umh
+root      3660  0.0  0.4 515800 38620 ?        Ssl  ago15   1:18 /usr/lib/packagekit/packagekitd
+gdm       3812  0.0  0.0 354752  4640 tty1     Sl   ago15   0:00 ibus-daemon --xim --panel disable
+gdm       3815  0.0  0.0 274132  4724 tty1     Sl   ago15   0:00 /usr/lib/ibus/ibus-dconf
+gdm       3817  0.0  0.1 482956  8104 tty1     Sl   ago15   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       3820  0.0  0.0 272076  4092 ?        Sl   ago15   0:00 /usr/lib/ibus/ibus-portal
+root      3846  0.0  0.0 290228  5472 ?        Ssl  ago15   0:04 /usr/lib/x86_64-linux-gnu/boltd
+gdm       3866  0.0  0.1 633548  9836 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       3870  0.0  0.0 271596  4156 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       3871  0.0  0.1 482628  8184 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       3872  0.0  0.1 816752 14228 tty1     Sl+  ago15   4:49 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       3875  0.0  0.0 386900  6088 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       3876  0.0  0.0 276928  4468 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       3877  0.0  0.1 637036  9328 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       3881  0.0  0.1 1212452 10576 tty1    Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       3883  0.0  0.0 195184  3192 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       3884  0.0  0.1 1004872 14016 tty1    Sl+  ago15   0:03 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       3887  0.0  0.0 260208  5184 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       3888  0.0  0.0 195204  3172 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       3889  0.0  0.0 268920  3184 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       3890  0.0  0.0 298560  4852 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       3897  0.0  0.0 371508  4348 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       3899  0.0  0.0 328416  5248 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       3905  0.0  0.1 567832 11420 tty1     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       3917  0.0  0.0 198276  4628 tty1     Sl   ago15   0:00 /usr/lib/ibus/ibus-engine-simple
+colord    3960  0.0  0.1 318408  9940 ?        Ssl  ago15   0:00 /usr/lib/colord/colord
+root      4294  0.0  0.0 408892  6916 ?        Sl   ago15   0:00 gdm-session-worker [pam/gdm-password]
+mariana   4298  0.0  0.0  77344  5828 ?        Ss   ago15   0:01 /lib/systemd/systemd --user
+mariana   4299  0.0  0.0 261880   820 ?        S    ago15   0:00 (sd-pam)
+mariana   4312  0.0  0.0 429272  5492 ?        Sl   ago15   0:01 /usr/bin/gnome-keyring-daemon --daemonize --login
+mariana   4316  0.0  0.0 205284  4888 tty2     Ssl+ ago15   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+mariana   4318  1.0  1.8 684848 146356 tty2    Sl+  ago15 100:16 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+mariana   4327  0.0  0.0  52436  5664 ?        Ss   ago15   0:14 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mariana   4330  0.0  0.0 636056  7984 tty2     Sl+  ago15   0:09 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+mariana   4426  0.0  0.0  11304    36 ?        Ss   ago15   0:02 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+mariana   4429  0.0  0.0 349300  4448 ?        Ssl  ago15   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+mariana   4434  0.0  0.0  50052  3060 ?        S    ago15   0:03 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+mariana   4436  0.0  0.0 220788  4652 ?        Sl   ago15   0:23 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+mariana   4454  1.1  6.1 4396924 496948 tty2   Sl+  ago15 113:57 /usr/bin/gnome-shell
+mariana   4461  0.0  0.0 285156  5260 ?        Ssl  ago15   0:00 /usr/lib/gvfs/gvfsd
+mariana   4466  0.0  0.0 416112  4004 ?        Sl   ago15   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+mariana   4478  1.8  0.1 2383828 12340 ?       S<l  ago15 182:44 /usr/bin/pulseaudio --start --log-target=syslog
+root      4496  0.0  0.0      0     0 ?        S<   ago15   0:00 [krfcommd]
+mariana   4498  0.0  0.1 356104  8112 tty2     Sl   ago15   1:57 ibus-daemon --xim --panel disable
+mariana   4502  0.0  0.0 274144  4796 tty2     Sl   ago15   0:00 /usr/lib/ibus/ibus-dconf
+mariana   4504  0.0  0.1 337836 10456 tty2     Sl   ago15   0:10 /usr/lib/ibus/ibus-x11 --kill-daemon
+mariana   4506  0.0  0.0 272208  5216 ?        Sl   ago15   0:01 /usr/lib/ibus/ibus-portal
+mariana   4517  0.0  0.0 690196  6556 ?        Sl   ago15   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+mariana   4536  0.0  0.0 188132  4788 ?        Sl   ago15   0:00 /usr/lib/dconf/dconf-service
+mariana   4539  0.0  0.0 373888  6820 ?        Ssl  ago15   0:22 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+mariana   4545  0.0  0.0 1431336 7924 ?        Ssl  ago15   0:00 /usr/lib/evolution/evolution-source-registry
+mariana   4547  0.0  0.0 281940  4892 ?        Ssl  ago15   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+mariana   4554  0.0  0.0 372008  4724 ?        Ssl  ago15   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+mariana   4559  0.0  0.0 269020  4532 ?        Ssl  ago15   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+mariana   4563  0.0  0.0 267224  4268 ?        Ssl  ago15   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+mariana   4567  0.0  0.0 784284  6704 ?        Sl   ago15   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+mariana   4577  0.0  0.0 296892  4116 ?        Sl   ago15   0:02 /usr/lib/gnome-online-accounts/goa-identity-service
+mariana   4582  0.0  0.2 867980 18172 tty2     Sl+  ago15   0:07 /usr/lib/gnome-settings-daemon/gsd-power
+mariana   4584  0.0  0.0 342516  5412 tty2     Sl+  ago15   0:01 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+mariana   4586  0.0  0.0 416532  4372 tty2     Sl+  ago15   0:02 /usr/lib/gnome-settings-daemon/gsd-rfkill
+mariana   4588  0.0  0.0 268920  4380 tty2     Sl+  ago15   0:01 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+mariana   4589  0.0  0.0 446692  7488 tty2     Sl+  ago15   1:05 /usr/lib/gnome-settings-daemon/gsd-sharing
+mariana   4592  0.0  0.0 445252  3996 tty2     Sl+  ago15   0:01 /usr/lib/gnome-settings-daemon/gsd-smartcard
+mariana   4598  0.0  0.0 328428  5196 tty2     Sl+  ago15   0:01 /usr/lib/gnome-settings-daemon/gsd-sound
+mariana   4599  0.0  0.1 422368 14524 tty2     Sl+  ago15   0:02 /usr/lib/gnome-settings-daemon/gsd-wacom
+mariana   4605  0.0  0.1 488336 10800 tty2     Sl+  ago15   0:02 /usr/lib/gnome-settings-daemon/gsd-xsettings
+mariana   4620  0.0  0.1 337812 10612 tty2     Sl+  ago15   0:02 /usr/lib/gnome-settings-daemon/gsd-clipboard
+mariana   4621  0.0  0.0 271604  4112 tty2     Sl+  ago15   0:01 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+mariana   4623  0.0  0.0 463184  5760 tty2     Sl+  ago15   0:01 /usr/lib/gnome-settings-daemon/gsd-datetime
+mariana   4625  0.0  0.2 745312 17512 tty2     Sl+  ago15   4:49 /usr/lib/gnome-settings-daemon/gsd-color
+mariana   4627  0.0  0.1 491900 10348 tty2     Sl+  ago15   0:02 /usr/lib/gnome-settings-daemon/gsd-keyboard
+mariana   4629  0.0  0.0 358224  5824 tty2     Sl+  ago15   0:34 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+mariana   4630  0.0  0.0 271604  4136 tty2     Sl+  ago15   0:01 /usr/lib/gnome-settings-daemon/gsd-mouse
+mariana   4634  0.0  0.1 862572 11636 tty2     Sl+  ago15   0:04 /usr/lib/gnome-settings-daemon/gsd-media-keys
+mariana   4671  0.0  0.0 501960  5880 tty2     Sl+  ago15   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+mariana   4723  0.0  0.0 271932  5392 tty2     Sl+  ago15   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+mariana   4731  0.0  1.1 1591696 91916 tty2    Sl+  ago15   0:20 nautilus-desktop
+mariana   4742  0.0  0.0 742984  5056 tty2     Sl+  ago15   0:25 /usr/bin/anydesk --tray
+mariana   4747  0.0  0.1 886312  8616 ?        Ssl  ago15   0:00 /usr/lib/evolution/evolution-calendar-factory
+mariana   4751  0.0  0.0 362192  5644 ?        Sl   ago15   0:07 /usr/lib/gvfs/gvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+mariana   4769  0.0  0.0 198412  5396 tty2     Sl   ago15   0:31 /usr/lib/ibus/ibus-engine-simple
+mariana   4811  0.0  0.0 1130168 4796 ?        Sl   ago15   0:01 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx4747x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/4747/2
+mariana   4824  0.0  0.0 726312  6944 ?        Ssl  ago15   0:00 /usr/lib/evolution/evolution-addressbook-factory
+mariana   4836  0.0  0.0 937164  6904 ?        Sl   ago15   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx4824x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/4824/2
+mariana   4859  0.1  3.4 5937848 276636 tty2   Sl+  ago15  14:52 ./jetbrains-toolbox --minimize
+mariana   4864  0.0  0.0  22368  2180 ?        Ssl  ago15   0:03 /home/mariana/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize
+mariana   4905  0.0  0.0 198252  5152 ?        Ssl  ago15   0:00 /usr/lib/gvfs/gvfsd-metadata
+mariana   5025  3.6  5.3 34987988 433060 tty2  SLl+ ago15 369:26 /opt/google/chrome/chrome
+mariana   5032  0.0  0.0   7612   264 tty2     S+   ago15   0:00 cat
+mariana   5033  0.0  0.0   7612   340 tty2     S+   ago15   0:00 cat
+mariana   5036  0.0  0.2 451324 18044 tty2     S+   ago15   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox
+mariana   5038  0.0  0.2 451324 22864 tty2     S+   ago15   0:00 /opt/google/chrome/chrome --type=zygote
+mariana   5041  0.0  0.0  52364  2428 tty2     S+   ago15   0:00 /opt/google/chrome/nacl_helper
+mariana   5044  0.0  0.1 451324  8624 tty2     S+   ago15   0:02 /opt/google/chrome/chrome --type=zygote
+mariana   5067  3.0  2.8 34515060 231908 tty2  Sl+  ago15 310:08 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=3894979628506954757,1228716215932210681,131072 --gpu-preferences=UAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+mariana   5070  0.6  1.3 34201464 110396 tty2  SLl+ ago15  64:22 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --service-sandbox-type=none --shared-files=v8_context_snapshot_data:100
+mariana   5084  0.0  0.1 588984 15056 tty2     Sl+  ago15   0:13 update-notifier
+mariana   5087  0.0  1.8 1397076 151552 tty2   SLl+ ago15   0:38 /usr/bin/gnome-software --gapplication-service
+mariana   5093  0.0  0.5 34085368 43188 tty2   Sl+  ago15   1:16 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --service-sandbox-type=utility --shared-files=v8_context_snapshot_data:100
+mariana   5260  0.0  0.9 38371980 77148 tty2   Sl+  ago15   2:56 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --extension-process --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana   5522  0.0  0.0 797644  7700 tty2     Sl+  ago15   0:00 /usr/lib/deja-dup/deja-dup-monitor
+root      5685  0.0  0.0      0     0 ?        I<   ago21   0:03 [kworker/0:1H-kb]
+root      5832  0.0  0.0      0     0 ?        S<   ago17   0:00 [loop29]
+mariana   5880  0.0  0.9 38363632 76952 tty2   Sl+  ago17   0:17 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=503 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root      6045  0.0  0.0      0     0 ?        S<   ago17   0:00 [loop30]
+mariana   6263  0.1  1.8 42680044 149536 tty2  Sl+  ago15  12:53 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=33 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana   6920  0.0  1.2 38405480 97500 tty2   Sl+  ago15   2:20 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=39 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana   6949  0.0  0.8 38348424 65064 tty2   Sl+  ago15   0:21 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=42 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana   6999  0.0  2.2 38538972 178048 tty2  Sl+  ago15   7:16 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --extension-process --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=44 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana   7014  0.0  0.7 38288448 58508 tty2   Sl+  ago15   0:19 /opt/google/chrome/chrome --type=ppapi --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --shared-files
+mariana   7120  0.7  0.5 34881792 43920 tty2   Sl+  ago15  75:59 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --service-sandbox-type=none --shared-files=v8_context_snapshot_data:100
+mariana   7834  0.0  0.0 427176  7420 ?        Ssl  ago15   0:02 /usr/bin/zeitgeist-daemon
+mariana   7842  0.0  0.1 326920 10376 ?        Ssl  ago15   0:01 /usr/lib/zeitgeist/zeitgeist/zeitgeist-fts
+mariana   8393  0.0  0.7 38292076 60132 tty2   Sl+  ago15   0:37 /opt/google/chrome/chrome --type=ppapi --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --shared-files
+mariana   9160  0.0  0.0 437556  5832 ?        Sl   ago15   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.22 /org/gtk/gvfs/exec_spaw/1
+mariana   9173  0.0  0.0 374476  4968 ?        Sl   ago15   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.22 /org/gtk/gvfs/exec_spaw/3
+root     11448  0.0  0.0 258736  6528 ?        Sl   ago21   0:00 gdm-session-worker [pam/gdm-password]
+www-data 16858  0.0  0.1 450796  8768 ?        S    00:05   0:00 /usr/sbin/apache2 -k start
+www-data 16859  0.0  0.1 450796  8776 ?        S    00:05   0:00 /usr/sbin/apache2 -k start
+www-data 16860  0.0  0.1 450796  8776 ?        S    00:05   0:00 /usr/sbin/apache2 -k start
+www-data 16861  0.0  0.1 450796  8776 ?        S    00:05   0:00 /usr/sbin/apache2 -k start
+www-data 16862  0.0  0.1 450796  8776 ?        S    00:05   0:00 /usr/sbin/apache2 -k start
+root     16864  0.0  0.0 101000  7460 ?        Ss   00:05   0:00 /usr/sbin/cupsd -l
+root     16865  0.0  0.1 303664  9708 ?        Ssl  00:05   0:00 /usr/sbin/cups-browsed
+mariana  19508  0.9  5.0 101826072 405164 tty2 Sl+  ago16  85:19 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=60 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root     20279  0.0  0.0      0     0 ?        S    14:35   0:00 [irq/127-mei_me]
+root     20455  0.0  0.0  25980  5348 ?        S    14:35   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlp2s0.pid -lf /var/lib/NetworkManager/dhclient-e3789435-681c-44f0-a7e2-e34174193450-wlp2s0.lease -cf /var/lib/NetworkManager/dhclient-wlp2s0.conf wlp2s0
+root     21158  0.0  0.0      0     0 ?        I<   ago18   0:00 [xfsalloc]
+root     21159  0.0  0.0      0     0 ?        I<   ago18   0:00 [xfs_mru_cache]
+root     21171  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsIO]
+root     21172  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsCommit]
+root     21173  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsCommit]
+root     21174  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsCommit]
+root     21175  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsCommit]
+root     21176  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsCommit]
+root     21177  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsCommit]
+root     21178  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsCommit]
+root     21179  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsCommit]
+root     21180  0.0  0.0      0     0 ?        S    ago18   0:00 [jfsSync]
+mariana  22376  0.0  2.0 42599680 161920 tty2  Sl+  15:06   0:12 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1168 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  22428 65.8  5.5 53459028 446604 tty2  Sl+  15:07 172:59 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1171 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root     22760  0.0  0.0      0     0 ?        I<   ago16   0:11 [kworker/6:2H-ev]
+mariana  22956  0.1  1.7 38400412 143036 tty2  Sl+  15:19   0:26 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1179 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  26131  0.9  0.7 34028484 56600 tty2   Sl+  16:37   1:33 /opt/google/chrome/chrome --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --service-sandbox-type=video_capture --shared-files=v8_context_snapshot_data:100
+mariana  26522  0.1  1.6 38386452 135028 tty2  Sl+  16:44   0:13 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1247 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root     26982  0.0  0.0      0     0 ?        I    16:54   0:00 [kworker/7:1-eve]
+mariana  27021  0.0  2.3 38412396 188332 tty2  Sl+  ago19   1:49 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --extension-process --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=646 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  27127  5.6  1.7 38618468 143892 tty2  Sl+  ago19 237:20 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=651 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  27150  0.2  1.7 38388996 144380 tty2  Sl+  16:57   0:23 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1255 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  27318  0.0  0.0   4624  1596 tty2     S+   ago19   0:00 /bin/sh /home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/bin/pycharm.sh
+mariana  27417  2.6 14.0 7211892 1128604 tty2  Sl+  ago19 109:46 /home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/jbr/bin/java -classpath /home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/lib/bootstrap.jar:/home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/lib/extensions.jar:/home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/lib/util.jar:/home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/lib/jdom.jar:/home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/lib/log4j.jar:/home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/lib/trove4j.jar:/home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/lib/jna.jar -Xms128m -Xmx980m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -XX:CICompilerCount=2 -Dsun.io.useCanonPrefixCache=false -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Djdk.attach.allowAttachSelf=true -Dkotlinx.coroutines.debug=off -Djdk.module.illegalAccess.silent=true -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -Dide.no.platform.update=true -Dtoolbox.notification.token=1Zg--_6zjQmVR5pAV8rKSL-3Mj1xPtr4NobfUjTy69w= -Dtoolbox.notification.portFile=/home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27.vmoptions.port -XX:ErrorFile=/home/mariana/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/home/mariana/java_error_in_PYCHARM.hprof -Didea.vendor.name=JetBrains -Didea.paths.selector=PyCharmCE2020.2 -Djb.vmOptionsFile=/home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27.vmoptions -Didea.platform.prefix=PyCharmCore com.intellij.idea.Main
+mariana  27540  0.0  0.0   4840  1888 tty2     S+   ago19   0:11 /home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/bin/fsnotifier64
+mariana  27578  0.1  3.4 38539080 273320 tty2  Sl+  ago17   9:25 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --extension-process --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=313 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  27879  0.3  2.0 42799676 166124 tty2  Sl+  17:09   0:33 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1265 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  27949  0.0  0.0  24744  6560 pts/2    Ss   ago19   0:01 /bin/bash --rcfile /home/mariana/.local/share/JetBrains/Toolbox/apps/PyCharm-C/ch-0/202.7660.27/plugins/terminal/jediterm-bash.in -i
+mariana  28162  0.0  1.3 38372000 109844 tty2  Sl+  ago19   0:29 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=660 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  28219  0.1  2.2 38409556 180552 tty2  Sl+  ago19   4:28 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=663 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  28238  0.0  1.5 38361348 128300 tty2  Sl+  17:16   0:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1271 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  28242  0.0  0.9 38371740 75408 tty2   Sl+  ago19   0:15 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=664 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  28334  0.1  0.6 1439328 51976 ?       Sl   17:16   0:11 /usr/bin/nautilus --gapplication-service
+mariana  28577  0.0  0.1 352820  8700 ?        Sl   17:20   0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.22 /org/gtk/gvfs/exec_spaw/4
+root     28739  0.0  0.0      0     0 ?        I    17:22   0:00 [kworker/0:2-eve]
+mariana  28740  0.0  1.4 38362064 119892 tty2  Sl+  17:22   0:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1277 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  28760  0.0  1.5 38363488 121500 tty2  Sl+  17:22   0:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1278 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  28841  0.1  1.6 38370712 136256 tty2  Sl+  17:24   0:11 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1279 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  29041  0.0  0.0  11304  1516 ?        S    17:28   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+mariana  29390  0.2  1.9 861688 153884 ?       Sl   17:38   0:17 /usr/bin/gedit --gapplication-service
+root     29521  0.0  0.0      0     0 ?        I    17:39   0:00 [kworker/4:3-eve]
+mariana  30033  0.0  1.3 38384680 111044 tty2  Sl+  ago19   0:25 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=712 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  30226  0.2  1.5 38369032 121252 tty2  Sl+  17:55   0:11 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1288 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root     30298  0.0  0.0      0     0 ?        I    17:55   0:00 [kworker/6:1-eve]
+mariana  30512  0.1  1.4 38370176 114616 tty2  Sl+  17:56   0:11 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1301 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root     30527  0.0  0.0      0     0 ?        I    17:56   0:00 [kworker/2:0-eve]
+mariana  30532  0.1  1.5 38364920 127296 tty2  Sl+  17:56   0:10 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1302 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  30547  2.0  1.8 38388804 145492 tty2  Sl+  17:56   1:53 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1303 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  30750  0.1  1.6 38371828 134700 tty2  Sl+  18:02   0:07 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1304 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+mariana  30988  0.4  1.4 38418264 119548 tty2  Sl+  ago17  28:58 /opt/google/chrome/chrome --type=renderer --field-trial-handle=3894979628506954757,1228716215932210681,131072 --lang=pt-BR --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=434 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100
+root     31034  0.0  0.0      0     0 ?        I    18:10   0:00 [kworker/2:1-eve]
+mariana  31035  0.0  0.3 796724 29256 ?        Ssl  ago17   0:33 /usr/lib/gnome-terminal/gnome-terminal-server
+root     31105  0.0  0.0      0     0 ?        I<   18:13   0:00 [kworker/6:0H-ev]
+mariana  31147  0.0  0.0  22876  3676 pts/0    Ss   ago17   0:00 bash
+root     31150  0.0  0.0      0     0 ?        I<   18:14   0:00 [kworker/5:2H-ev]
+root     31428  0.0  0.0      0     0 ?        I<   ago17   0:02 [kworker/5:1H-ev]
+root     31673  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/7:2-mm_]
+mariana  31785  0.0  0.0  23008  5248 pts/1    Ss+  18:29   0:00 bash
+root     32042  0.2  0.0      0     0 ?        I    18:34   0:07 [kworker/u16:3-i]
+root     32401  0.0  0.0      0     0 ?        I    18:42   0:00 [kworker/4:0-cgr]
+root     32716  0.1  0.0      0     0 ?        I    18:53   0:03 [kworker/u16:0-i]
