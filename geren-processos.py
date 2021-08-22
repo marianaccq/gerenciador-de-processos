@@ -6,10 +6,23 @@
 #
 # WARNING! All changes made in this file will be lost!
 import os
-from subprocess import check_output
+from PyQt5.QtCore import QTimer
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+class Second(QtWidgets.QMainWindow):
+    def __init__(self, parent=None):
+        super(Second, self).__init__(parent)
+        self.label = QtWidgets.QLabel(Ui_GroupBox.print_prioridade)
+
 class Ui_GroupBox(object):
+
+    def atualizar_processos(self):
+        self.filtro = self.textEdit_4.toPlainText()
+
+        if self.filtro != None:
+            self.listagem_processos()
+        else:
+            self.filtrar_processo()
 
     def botao_kill(self):
         self.pid = self.textEdit.toPlainText()
@@ -62,15 +75,32 @@ class Ui_GroupBox(object):
         self.textEdit_2.update()
         self.pid = self.textEdit.toPlainText()
         self.textEdit.update()
-        os.system("renice" + self.prioridade + " -p " + self.pid +" > prioridade.txt")
-        prioridade_resultado = open("filtro.txt").read()
+        os.system("renice " + self.prioridade + " -p " + self.pid +" > prioridade.txt")
+        prioridade_resultado = open("prioridade.txt").read()
+        print("prioridade " + self.prioridade + "definida ao processo " + self.pid)
+        #self.label = QtWidgets.QLabel("Prioridade " + self.textEdit_2.toPlainText() + " definida ao processo com PID " + self.textEdit.toPlainText())
+        #self.label_20.setGeometry(QtCore.QRect(10, 320, 100, 17))
+        #self.label_20.setText("Prioridade " + self.textEdit_2.toPlainText() + " definida ao processo com PID " + self.textEdit.toPlainText())
+        #self.label_20.show()
+        #self.dialog = Second()
+        #self.dialog.show()
 
+        return prioridade_resultado
+
+    def print_prioridade(self):
+        texto = "Prioridade " + self.textEdit_2.toPlainText() + " definida ao processo com PID " + self.textEdit.toPlainText()
+        self.textEdit_2.setText("")
+        self.textEdit.setText("")
+        return texto
 
 
 
 
     def setupUi(self, GroupBox):
 
+        self.timer = QTimer()
+        self.timer.timeout.connect(self.atualizar_processos)
+        self.timer.start(1000)
 
         GroupBox.setObjectName("GroupBox")
         GroupBox.resize(625, 450)
@@ -108,6 +138,7 @@ class Ui_GroupBox(object):
                                         "background-color: rgb(233, 185, 110);")
         self.pushButton_5.setObjectName("pushButton_5")
         self.pushButton_5.setText("ok")
+        self.pushButton_5.clicked.connect(self.definindo_prioridade)
 
         #ok cpu
         self.pushButton_6 = QtWidgets.QPushButton(GroupBox)
