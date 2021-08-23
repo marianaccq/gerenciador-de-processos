@@ -1,0 +1,2 @@
+atual máscara de afinidade do pid 20742: 1
+nova máscara de afinidade do pid 20742: 1
